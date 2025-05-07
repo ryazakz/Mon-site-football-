@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon site de football</title>
-    <!-- Charger le style en premier -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Mon site de football</h1>
+        <img src="logo.png" alt="Logo du site" class="logo">
+        <nav>
+            <ul>
+                <li>Résultats</li>
+                <li>Statistiques</li>
+                <li>Classement</li>
+            </ul>
+        </nav>
     </header>
 
     <section id="pronostics">
-        <h2>Pronostics</h2>
+        <h2>Pronostics à venir</h2>
+        <button id="ajouter-pronostic">Ajouter un pronostic</button>
         <ul id="pronostics-list"></ul>
     </section>
 
     <section id="resultats">
-        <h2>Résultats</h2>
+        <h2>Résultats des matchs</h2>
         <ul id="resultats-list"></ul>
     </section>
 
@@ -27,15 +34,23 @@
         <canvas id="stats-chart"></canvas>
     </section>
 
+    <section id="classement">
+        <h2>Classement</h2>
+        <ul id="classement-list">
+            <li>Équipe - Points</li>
+        </ul>
+    </section>
+
+    <section id="analyse">
+        <h2>Analyse</h2>
+        <p>Des analyses détaillées des matchs viendront ici.</p>
+    </section>
+
     <footer>
         <p>© 2025 Mon-site-football</p>
     </footer>
 
-    <!-- Charger les scripts en dernier -->
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </body>
 </html>
-
-
-
