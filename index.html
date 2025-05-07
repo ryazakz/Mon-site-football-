@@ -3,63 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pronostics Football</title>
+    <title>Mon site de football</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Logo Football">
-        <h1>Pronostics Football</h1>
+        <h1>Mon site de football</h1>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#pronostics">Pronostics</a></li>
-            <li><a href="#resultats">Résultats</a></li>
-            <li><a href="#statistiques">Statistiques</a></li>
-            <li><a href="#classement">Classement</a></li>
-            <li><a href="#analyses">Analyses</a></li>
-        </ul>
-    </nav>
-
     <section id="pronostics">
-        <h2>Pronostics à venir</h2>
+        <h2>Pronostics</h2>
         <ul id="pronostics-list"></ul>
-        <div class="input-container">
-            <input type="text" id="new-pronostic" placeholder="Ajouter un pronostic...">
-            <button onclick="ajouterPronostic()">Ajouter</button>
-        </div>
     </section>
 
     <section id="resultats">
-        <h2>Résultats des matchs</h2>
+        <h2>Résultats</h2>
         <ul id="resultats-list"></ul>
     </section>
 
     <section id="statistiques">
-        <h2>Statistiques</h2>
+        <h2>Statistiques des équipes</h2>
         <canvas id="stats-chart"></canvas>
     </section>
 
-    <section id="classement">
-        <h2>Classement</h2>
-        <table id="classement-table">
-            <tr>
-                <th>Équipe</th>
-                <th>Points</th>
-            </tr>
-        </table>
-    </section>
-
-    <section id="analyses">
-        <h2>Analyses</h2>
-        <p>Des analyses détaillées des matchs viendront ici.</p>
-    </section>
-
     <footer>
-        <p>© 2025 - Pronostics Football. Tous droits réservés.</p>
+        <p>© 2025 Mon-site-football</p>
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </body>
 </html>
+
